@@ -1,13 +1,7 @@
-const multiply = (a, b) => {
-  return a * b;
-};
-// console.log(multiply(2, 3));
+const http = require("http");
 
-const student = {
-  name: "chaithanya",
-  age: 26,
-  greet: function () {
-    console.log("Hi, I am " + this.name);
-  },
-};
-student.greet();
+const server = http.createServer((req, res) => {
+  console.log("chaithanya kumar");
+});
+
+server.listen(4000);
