@@ -1,0 +1,16 @@
+{
+  "name": "first-program",
+  "version": "1.0.0",
+  "description": "",
+  "main": "first-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon first-app.js",
+    "start-server": "node first-app.js"
+  },
+  "author": "\"chaithanya kumar\"",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
